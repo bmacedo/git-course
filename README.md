@@ -20,3 +20,28 @@ To commit files in the current changelist, open the **Version Control** tab (Cmd
 
 ![](https://tva1.sinaimg.cn/large/0082zybpgy1gc82c28ijgj30m40moq60.jpg)
 
+## Git Pull
+
+To pull the any changes made in the branch, select **VCS** > **Update Project** (Cmd + T)
+
+![](https://tva1.sinaimg.cn/large/0082zybpgy1gc82m1yld6j30an059wfa.jpg)
+
+## Git Commit — Amend
+
+To add more changes to the previous commit, you can follow the same process as a new commit, but checking the box to amend the commit. 
+
+**PRO TIP**: If the previous commit had already been pushed before, you will need to **force-push** your amended commit. Force pushing means that git will replace whatever is in the remote with your changes, which can be dangerous if you are not the only one using the given branch. It's fine as long as you know what you're doing.
+
+![](https://tva1.sinaimg.cn/large/0082zybpgy1gc82rpy4hpj30ko0amta7.jpg)
+
+## Git Push
+
+To push your changes to the remote server, go to **VCS** > **Git** > **Push** (Cmd + Shift + K)
+
+![](https://tva1.sinaimg.cn/large/0082zybpgy1gc82y1th1sj30j90duq72.jpg)
+
+**PRO TIP:** After modifying history (rebasing, squashing, amending, etc) you will need to force push. You can do that by selecting the force push option in the push menu.
+
+![](https://tva1.sinaimg.cn/large/0082zybpgy1gc837mmm2zj308k04cjrt.jpg)
+
+**PRO TIP 2**: The master branch is protected from force push or interactive rebasing by default. You should probably keep it that way.
