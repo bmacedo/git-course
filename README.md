@@ -82,3 +82,7 @@ In order to copy one particular commit from one branch into another, you can use
 
 **PRO TIP**: Cherry-pick is very handy to copy specific commits from master to a particular release branch.
 
+**PRO TIP 2**: Make sure you are in the feature (or release) branch before you cherry-pick.
+
+ ![](https://tva1.sinaimg.cn/large/0082zybpgy1gc842eu0usj308a04cq3c.jpg)
+
