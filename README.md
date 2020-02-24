@@ -45,3 +45,10 @@ To push your changes to the remote server, go to **VCS** > **Git** > **Push** (C
 ![](https://tva1.sinaimg.cn/large/0082zybpgy1gc837mmm2zj308k04cjrt.jpg)
 
 **PRO TIP 2**: The master branch is protected from force push or interactive rebasing by default. You should probably keep it that way.
+
+## Git Log
+
+To see the history of commits, go to the **Version Control** tab (Cmd + 9), and select Log. You will see also some filtering options and advanced options when right clicking one particular commit.
+
+![](https://tva1.sinaimg.cn/large/0082zybpgy1gc83dhkp99j309f07sq36.jpg)
+
