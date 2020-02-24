@@ -65,3 +65,20 @@ In order to rebase a feature branch with the latest additions from the master br
    ![](https://tva1.sinaimg.cn/large/0082zybpgy1gc83l1tvepj30i408gq4h.jpg)
 
 **PRO TIP**: The order of the branches is important. Make sure you are currently in the feature branch before executing the operation.
+
+More information on rebase: <https://gyulajuhasz.com/blog/rebasing-in-android-studio/>
+
+## Git Interactive Rebase
+
+To freely modify the commit history, you can go to the **Version Control** > **Log** tab, right click a particular commit and select **Interactively Rebase from here**. There you will be able to select the action you want for each commit between the latest commit (**HEAD**) and the selected commit.
+
+**PRO TIP**: Use this to rename a commit, or squas several commits into one.
+
+![](https://tva1.sinaimg.cn/large/0082zybpgy1gc83sk5ze8j30b508u3ze.jpg)
+
+## Git Cherry-Pick
+
+In order to copy one particular commit from one branch into another, you can use cherry-pick. This option is also available by right-clicking the commit you want to cherry-pick and selecting **Cherry-pick** from the **Log** tab.
+
+**PRO TIP**: Cherry-pick is very handy to copy specific commits from master to a particular release branch.
+
