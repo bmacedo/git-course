@@ -16,7 +16,7 @@ To add newly created files to the git commit, open the **Version Control** tab (
 
 To commit files in the current changelist, open the **Version Control** tab (Cmd + 9), press the **Commit** button (Cmd + K), give a commit message and press **Commit**.
 
-**PRO TIP**: Play with the checkboxes and select what is best for you. It can save a lot time that your team mates would end up using by writing trivial PR comments.
+**PRO TIP**: Play with the checkboxes and select what is best for you. It can save a lot time that your teammates would end up using by writing trivial PR comments.
 
 ![](https://tva1.sinaimg.cn/large/0082zybpgy1gc82c28ijgj30m40moq60.jpg)
 
@@ -72,7 +72,7 @@ More information on rebase: <https://gyulajuhasz.com/blog/rebasing-in-android-st
 
 To freely modify the commit history, you can go to the **Version Control** > **Log** tab, right click a particular commit and select **Interactively Rebase from here**. There you will be able to select the action you want for each commit between the latest commit (**HEAD**) and the selected commit.
 
-**PRO TIP**: Use this to rename a commit, or squas several commits into one.
+**PRO TIP**: Use this to rename a commit, or squash several commits into one.
 
 ![](https://tva1.sinaimg.cn/large/0082zybpgy1gc83sk5ze8j30b508u3ze.jpg)
 
@@ -103,4 +103,3 @@ Every region marked in red represents a conflict identified. Click the double ar
 **PRO TIP**: You can also type in the middle (resulting) block to add any necessary logic to fix the merge. Sometimes that proves to be necessary.
 
 ![](https://tva1.sinaimg.cn/large/0082zybpgy1gc84g7zv1ij30g10blwgk.jpg)
-
