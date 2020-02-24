@@ -18,3 +18,5 @@ To commit files in the current changelist, open the **Version Control** tab (Cmd
 
 **PRO TIP**: Play with the checkboxes and select what is best for you. It can save a lot time that your team mates would end up using by writing trivial PR comments.
 
+![](https://tva1.sinaimg.cn/large/0082zybpgy1gc82c28ijgj30m40moq60.jpg)
+
