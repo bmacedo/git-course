@@ -86,3 +86,21 @@ In order to copy one particular commit from one branch into another, you can use
 
  ![](https://tva1.sinaimg.cn/large/0082zybpgy1gc842eu0usj308a04cq3c.jpg)
 
+## Solving Merge Conflicts
+
+Once you pull from remote, or rebase into a different branch, **if you modified the same files**, git will complain and ask your help to fix the merge issues. Android Studio offers a great merge tool to fix any merge conflicts that may happen.
+
+After the conflict is detected, AS will present this modal for you:
+
+![](https://tva1.sinaimg.cn/large/0082zybpgy1gc849ejo36j30i40gvjsx.jpg)
+
+By double-cliking the conflicted file, you will see the issues, and a comparison between your version and the version on remote (or the other branch). Your version will be on the left side, the other version will be in the right side, and in the middle Android Studio will display the resulting file after the conflicts are solved.
+
+![](https://tva1.sinaimg.cn/large/0082zybpgy1gc84c9xisrj31340pln22.jpg)
+
+Every region marked in red represents a conflict identified. Click the double arrow symbol (**>>**) to copy the region to the resulting file or press **X** to discard a particular version. Once all the conflicts were processed, AS will display an option to **Save changes and finish merging**.
+
+**PRO TIP**: You can also type in the middle (resulting) block to add any necessary logic to fix the merge. Sometimes that proves to be necessary.
+
+![](https://tva1.sinaimg.cn/large/0082zybpgy1gc84g7zv1ij30g10blwgk.jpg)
+
