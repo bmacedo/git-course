@@ -52,3 +52,16 @@ To see the history of commits, go to the **Version Control** tab (Cmd + 9), and 
 
 ![](https://tva1.sinaimg.cn/large/0082zybpgy1gc83dhkp99j309f07sq36.jpg)
 
+## Git Rebase
+
+In order to rebase a feature branch with the latest additions from the master branch (or any other branch) do:
+
+1. Checkout the feature branch.
+
+2. Access the Log functionality
+
+3. Right click on the master branch, select **Branch 'master'** > **Rebase Current onto Selected**
+
+   ![](https://tva1.sinaimg.cn/large/0082zybpgy1gc83l1tvepj30i408gq4h.jpg)
+
+**PRO TIP**: The order of the branches is important. Make sure you are currently in the feature branch before executing the operation.
